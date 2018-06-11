@@ -1,0 +1,255 @@
+/* --------- Colors ---------------- */
+/* Dark grey: #545454
+Light grey: #979797
+Search Bar grey: #848484
+Listings Background: rgba(220, 220, 220, 0.5)
+Orange: #FFBA5A */
+
+/* --------- Global Styles ---------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #D7D7D7;
+    font-size: 10px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+/* --------- Mobile Size ---------------- */
+
+.container {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 37.5rem;
+    position: relative;
+}
+
+/*----- Floats-----*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*----- ClearFix-----*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*----- Header Nav ------*/
+
+.full-head {
+    background-color: #545454;
+    color: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0rem;
+}
+
+.full-head img:first-child {
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1.2rem .8rem 2rem .8rem;
+    border-bottom: 1px solid #979797;
+}
+
+.back {
+    display: inline-block;
+    font-size: 1.7rem;
+    padding: .2rem .5rem;
+}
+.street-names {
+    text-align: center;
+    padding-top: .2rem;
+}
+.back-button {
+    margin-top: -2rem;
+    color: #FFBA5A;
+}
+
+.chevron {
+    padding-top: .2rem;
+    font-size: 2rem;
+}
+
+.hamburger {
+    margin-top: -2.8rem;
+    font-size: 3rem;
+    color: #FFBA5A;
+}
+
+.back-button:hover, .hamburger:hover {
+    color: rgb(251, 239, 212)
+}
+
+.back-button:active, .hamburger:active {
+    color: rgb(251, 239, 212)
+}
+
+/*----- Search ------*/
+
+.schedule-search {
+    background-color: #000000;
+    padding: 1.2rem .8rem 1.8rem .8rem;
+}
+
+.schedule-search h1 {
+    padding-left: 1.8rem;
+}
+
+#mySearch {
+    border: none;
+    background: #848484;
+    background-image: url(../images/searchglyph.svg);
+    background-repeat: no-repeat;
+    background-position: 1.2rem center;
+    border-radius: 10px;
+    padding: 1.1rem;
+    margin-top: 1.1rem;
+    height: 4rem;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: #D9D9E0;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+:-ms-input-placeholder {
+    color: #D9D9E0;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+::-ms-input-placeholder {
+    color: #D9D9E0;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+::placeholder {
+    color: #D9D9E0;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+input, select, textarea{
+    color: white;
+}
+
+
+/*----- Header Bottom ------*/
+.line-arrives {
+    padding: 0.8rem 0;
+}
+
+.line-arrives li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.line-arrives li{
+    padding-left: 1.2rem;
+}
+
+.line-arrives li:first-child {
+    margin-left: 4%;
+    width: 20%;
+}
+
+.line-arrives li:nth-child(2) {
+    margin: 0 1%;
+    width: 40%;
+}
+
+.line-arrives li:nth-child(3) {
+    margin-right: 4%;
+    width: 30%;
+}
+
+/*----- Listings ------*/
+
+.listings {
+    color: #545454;
+}
+
+.background-border{
+    border-bottom: 1px solid rgba(189, 189, 189, 0.66);
+    transition: all .5s;
+    height: 6rem;
+    display: table;
+    width: 100%;
+}
+
+.background-border:hover {
+    background-color: rgba(153, 157, 158, 0.25);
+}
+
+.background-border:active {
+    background-color: rgba(153, 157, 158, 0.25);
+}
+
+.wrapper {
+   height: 100%;
+   display: table-cell;
+}
+
+.line-direction {
+    height: 100%;
+    width: 20%;
+    padding: 1.4rem 1rem;
+    margin-left: 4%;
+    background-color: rgba(220, 220, 220, 0.5);
+    display: table-cell;
+}
+
+.destination {
+    height: 100%;
+    width: 40%;
+    padding: 2.3rem 1rem;
+    margin: 0 1%;
+    background-color: rgba(220, 220, 220, 0.5);
+    display: table-cell;
+}
+
+.time {
+    height: 100%;
+    width: 30%;
+    padding: 1.4rem 1rem;
+    margin-right: 4%;
+    background-color: rgba(220, 220, 220, 0.5);
+    display: table-cell;
+}
