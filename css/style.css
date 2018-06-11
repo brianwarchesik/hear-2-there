@@ -230,7 +230,7 @@ input, select, textarea{
 .line-direction {
     height: 100%;
     width: 20%;
-    padding: 1.4rem 1rem;
+    padding: 1.4rem 1.2rem;
     margin-left: 4%;
     background-color: rgba(220, 220, 220, 0.5);
     display: table-cell;
@@ -239,7 +239,7 @@ input, select, textarea{
 .destination {
     height: 100%;
     width: 40%;
-    padding: 2.3rem 1rem;
+    padding: 2.2rem 1.2rem;
     margin: 0 1%;
     background-color: rgba(220, 220, 220, 0.5);
     display: table-cell;
@@ -248,7 +248,7 @@ input, select, textarea{
 .time {
     height: 100%;
     width: 30%;
-    padding: 1.4rem 1rem;
+    padding: 1.4rem 1.2rem;
     margin-right: 4%;
     background-color: rgba(220, 220, 220, 0.5);
     display: table-cell;
